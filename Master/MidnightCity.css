@@ -1,0 +1,57 @@
+﻿* {
+    font-family: "Roboto",sans-serif;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+body {
+    background: #232526;
+    background: linear-gradient(270deg, #232526, #414345);
+    background-size: 600% 600%;
+    -webkit-animation: bodyGradAnimWeb 10s ease infinite;
+    -moz-animation: bodyGradAnimMoz 10s ease infinite;
+    animation: bodyGradAnimKey 10s ease infinite;
+}
+
+
+@-webkit-keyframes bodyGradAnimWeb {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes bodyGradAnimMoz {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes bodyGradAnimKey {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
